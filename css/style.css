@@ -129,33 +129,75 @@ img {
  ************************************************/
  @media screen and (max-width: 480px) {
 
-    .container  {
-        width: 100%; }   
-
-    .lessons .col, .steps .col, {
-        width: 100%;
-    }   
+.container  {
+     width: 100%;
+     
+    } 
 
 
-    .row {       
+.row {       
         flex-direction: column; 
         align-items: center;
-        width: 100%;         
+        display: flex;
+        
+
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lessons .col {
+    width: 100%;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px 0;
+    width: 80%;
 }
 
 
 .why-us {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.steps .col{
     width: 100%;
+    justify-content: center;
 }
 
 .text-center{
     font-size: 25px;
+    /* padding-top: 3rem; */
+}
+h2{
+    font-size: 20px;
 }
 
+.site-header{
+    margin-top: 0;
 }
+
+.steps {
+    margin: 0 0;
+}
+
+.text, p{
+    font-size: 12px;
+
+}
+}
+
+
 
 
 @media screen and (max-width: 768px) {
-
  
+.container  {
+        width: 100%; }  
 }
