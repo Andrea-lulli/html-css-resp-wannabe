@@ -131,6 +131,8 @@ img {
 
 .container  {
      width: 100%;
+     padding: 0 0;
+     
      
     } 
 
@@ -172,11 +174,15 @@ img {
 }
 
 .text-center{
-    font-size: 25px;
-    /* padding-top: 3rem; */
+    font-size: 30px;
+    padding-top: 2rem;
+    width: 100%;
+    
+   
 }
-h2{
-    font-size: 20px;
+
+
+    
 }
 
 .site-header{
